@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="./paymentGateway.css" />
+  </head>
+  <body>
+    <div class="payment-container">
+      <form action="">
+        <div class="payment-row">
+          <div class="payment-col">
+            <h3 class="payment-title">billing address</h3>
+            <div class="payment-input-box">
+              <span>full name :</span>
+              <input type="text" placeholder="example: John Doe" />
+            </div>
+            <div class="payment-input-box">
+              <span>Email :</span>
+              <input type="email" placeholder="example@example.com" />
+            </div>
+            <div class="payment-input-box">
+              <span>Address :</span>
+              <input type="text" placeholder="Flat - Street - area" />
+            </div>
+            <div class="payment-input-box">
+              <span>City :</span>
+              <input type="text" placeholder="Dubai" />
+            </div>
+            <div class="payment-flex">
+              <div class="payment-input-box">
+                <span>Country :</span>
+                <input type="text" placeholder="United Arab Emirates" />
+              </div>
+              <div class="payment-input-box">
+                <span>Zip Code :</span>
+                <input type="number" placeholder="123 456" />
+              </div>
+            </div>
+          </div>
+
+          <div class="payment-col">
+            <h3 class="payment-title">payment</h3>
+
+            <div class="payment-input-box">
+              <span>cards accepted :</span>
+              <img
+                src="./assets/images/cards-accepted-removebg-preview.png"
+                alt=""
+              />
+            </div>
+            <div class="payment-input-box">
+              <span>name on card :</span>
+              <input type="text" placeholder="example: John Doe" />
+            </div>
+            <div class="payment-input-box">
+              <span>credit card number: </span>
+              <input type="text" placeholder="123 456" />
+            </div>
+            <div class="payment-input-box">
+              <span>exp month :</span>
+              <input type="text" placeholder="January" />
+            </div>
+
+            <div class="payment-flex">
+              <div class="payment-input-box">
+                <span>exp year :</span>
+                <input type="2024" placeholder="United Arab Emirates" />
+              </div>
+              <div class="payment-input-box">
+                <span>CVV :</span>
+                <input type="number" placeholder="123 456" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <input
+          type="submit"
+          value="proceed to checkout"
+          class="payment-submit-btn"
+        />
+      </form>
+    </div>
+  </body>
+</html>

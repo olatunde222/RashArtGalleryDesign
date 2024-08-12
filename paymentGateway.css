@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    block-size: border-box;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+}
+
+.payment-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: #ced1e4;
+    padding-bottom: 70px;
+    text-transform: capitalize;
+    
+}
+
+.payment-container form{
+    padding: 20px;
+    width: 600px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+.payment-container form .payment-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.payment-container form .payment-row .payment-col{
+    flex: .4 .6 200px ;
+}
+
+.payment-container form .payment-row .payment-col .payment-title{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #333;
+    padding-bottom: 5px;
+
+}
+
+.payment-container form .payment-row .payment-col .payment-input-box{
+    margin: 15px 0;
+}
+
+.payment-container form .payment-row .payment-col .payment-input-box input::placeholder{
+    text-transform: capitalize;
+}
+
+
+.payment-container form .payment-row .payment-col .payment-input-box img{
+    width: 250px;
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+.payment-container form .payment-row .payment-col .payment-input-box span{
+    margin-bottom: 5px;
+    display: block;
+}
+
+.payment-container form .payment-row .payment-col .payment-input-box input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: lowercase;
+}
+
+.payment-container form .payment-row .payment-col .payment-input-box input:hover{
+    border: 1px solid #000;
+}
+
+.payment-container form .payment-row .payment-col .payment-input-box input:focus{
+    border: 1px solid #000;
+}
+
+.payment-container form .payment-row .payment-col .payment-flex{
+    display: flex;
+    gap: 40px;
+}
+
+.payment-container form .payment-row .payment-col .payment-flex .payment-input-box{
+    margin-top: 5px;
+}
+
+.payment-container form .payment-submit-btn{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    color: #fff;
+    background: crimson;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.payment-container form .payment-submit-btn:hover{
+    background-color: aqua;
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Toggle</title>
+  <style>
+    /* Basic styles for the overlay */
+    .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.9);
+      overflow-x: hidden;
+      transition: 0.5s;
+    }
+    
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    .overlay-content a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .overlay-content a:hover, .overlay-content a:focus {
+      color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+  <div class="custom_menu-btn">
+    <button onclick="toggleNav()">
+      <span class="s-1"> </span>
+      <span class="s-2"> </span>
+      <span class="s-3"> </span>
+    </button>
+  </div>
+  <div id="myNav" class="overlay">
+    <div class="overlay-content">
+      <a href="">Home</a>
+      <a href="">ABOUT</a>
+      <a href="">Services</a>
+      <a href="">CONTACT US</a>
+    </div>
+  </div>
+
+  <script>
+    function toggleNav() {
+      const nav = document.getElementById("myNav");
+      if (nav.style.width === "100%") {
+        nav.style.width = "0";
+      } else {
+        nav.style.width = "100%";
+      }
+    }
+  </script>
+</body>
+</html>

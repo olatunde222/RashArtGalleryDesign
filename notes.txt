@@ -1,0 +1,19 @@
+- The project was fully built with HTML-CSS-JavaScript
+- The prjoect has about 8 sections : Home, Services, About, Concepts, Projects, reviews, Contact& payment, Footer
+- The project was built for Art gallery and Art display purpose with the expectation of about 15 -20 visitors per day. hence minimal bandwidth 
+- The aesthetic and coloration choosen to suite the theme of Art. I.e calm,inviting and captivating.
+- A carousel form of display was used to showcase the designs and art works which is user friendl.
+- Google sheet API was used where Users/Visitors can contact the client by filling in a form which will be recieved by the client.
+- Also a gateway payment was designed to accomodate future payment using STRIPE
+- And a footer to dispaly links and social media handles
+- The project using bootstrap was made responsive to all devices.
+- Supported on various browsers like Google, Opera, fireFox, MS edge 
+
+
+
+TODO's
+
+* Getting feedback 
+* Creating Stripe account 
+* Creating Git account and Installing Git Repo 
+* Installing VS code editor  
